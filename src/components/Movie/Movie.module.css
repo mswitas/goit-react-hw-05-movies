@@ -1,0 +1,51 @@
+.Movie {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.goBackLink {
+    text-decoration: none;
+}
+
+.goBackBtn {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.mainInfoWrapper {
+    display: flex;
+    gap: 5px;
+}
+
+.genresList {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.additionalInfoMenu {
+    padding-inline-start: 10px;
+}
+
+.additionalInfo {
+    padding-inline: 10px;
+    padding-block-end: 10px;
+}
